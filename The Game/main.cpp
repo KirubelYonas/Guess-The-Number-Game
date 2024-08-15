@@ -59,7 +59,7 @@ pair<int, int> checkGuess(const string &randomNumber, const string &userGuess) {
     return make_pair(correctNumbers, correctPosition);
 }
 
-int _main() {
+int main() { // This will fix the code
     // Seed rand since random_shuffle _probably_ uses it.
     srand(static_cast<unsigned>(time(0)));
 
